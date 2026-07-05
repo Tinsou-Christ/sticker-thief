@@ -45,6 +45,7 @@ def on_start_command(update: Update, _):
 
     keyboard = [
         [InlineKeyboardButton("📢 Channel City", url="https://t.me/lifeCitychannel")],
+        [InlineKeyboardButton("👥 Groupe", url="https://t.me/lifecity_anothergirl")],
         [InlineKeyboardButton("👤 Créateur", url="https://t.me/Christus225")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
